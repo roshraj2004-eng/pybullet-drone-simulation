@@ -1,5 +1,5 @@
 while True:
-    cmd = input("Command (w/a/s/d/q/e/x): ").lower()
+    cmd = input("Command (w/a/s/d/q/e/o/x): ").lower()
 
     with open("cmd.txt", "w") as f:
         f.write(cmd)
